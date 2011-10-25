@@ -1,0 +1,89 @@
+#web_port{
+margin-top: 12px;
+overflow:auto;
+position:relative;
+}
+
+#web_port div{
+    background-color: #0099FF;
+    border: 15px solid  #C2DAFE;
+    float: left;
+    height: 170px;
+    margin-bottom: 23px;
+    margin-right: 23px;
+    overflow: hidden;
+    position: relative;
+    width: 280px;
+	cursor:pointer;
+}
+#web_port div.last_elem{
+	margin-right:0;
+}
+
+#web_port div h3{
+	color: #FFFFFF;
+    letter-spacing: -1.9px;
+	word-spacing: 3px;
+    font-size: 33px;
+    padding: 20px;
+	position:absolute;
+	bottom:0;
+}
+#web_port div h3 span{
+font-size:20px;	
+display:block;
+}
+
+
+#web_port div img{
+	
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#thi_cat p {
+color:#000;
+ font-size: 19px;
+ margin-top: 5px;
+}
+
+#thi_cat p a {
+    display:none;
+	margin-left: 9px;
+    text-transform: lowercase;
+    word-spacing: 0;
+}
+#thi_cat p a:hover{
+color: #ED1E79;	
+text-decoration:none;
+}
+
+#thi_cat a:visited{
+
+color:#29ABE2;
+	
+}
+
+#showcase_btn{
+    background-color: #000000;
+    background-image: url("/images_content/web_port_arrow.png");
+    background-position: 6px center;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    float: right;
+    font-weight: bold;
+    padding: 9px 10px 10px 22px;
+    text-transform: uppercase;
+	display:none;
+	position:relative;
+    text-decoration:none;
+	
+}
+
+#showcase_btn:hover{
+
+  background-color:#666;
+ 
+
+}

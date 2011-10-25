@@ -1,0 +1,39 @@
+#my_name {
+    background: none repeat scroll 0 0 transparent;
+    color: #003366;
+    font-size: 25pt;
+    font-style: normal;
+    margin-top: 12px;
+}
+
+.L_pic_wrapper
+{
+	float:right;
+	margin:20px;
+	margin-right:0;
+/*
+	padding:15px;
+	
+	background-image: url(/images_css/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color:#FF0;
+	border:1px solid grey;
+*/
+    
+}
+
+.L_pic_wrapper img
+{
+	 border: 15px solid #C2DAFE;
+}
+
+.info_block span{
+	
+text-transform:uppercase;
+}
+
+.info_block span.high_light{
+text-transform:capitalize;
+font-weight:bold;
+}

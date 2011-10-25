@@ -1,0 +1,144 @@
+.widecol
+{
+width:410px;
+float:left;
+padding:0 10px;
+}
+#right_col 
+{
+width:373px;
+padding-left:47px;
+float:right;
+}
+.fmset 
+{
+	border: none;
+	padding:0;
+}
+#cForm .row {
+	
+margin:8px 0;
+}
+
+#cForm span {
+padding:0 0 0 3px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:11pt;
+}
+
+textarea, .name, .email, .url, .subject 
+{
+	background-color:#E6EBFF;
+	border: solid 1px #999;;
+}
+
+
+textarea {
+
+font-family:Arial,Helvetica,sans-serif;
+font-size:13px;
+height:136px;
+margin:8px 0 0;
+padding:8px;
+width:392px;
+}
+
+.name, .email, .url, .subject {
+padding:10px 8px 8px 8px;
+height:18px;
+width:277px;
+
+margin:5px 0;
+font-size: 15px;
+}
+
+.name:focus, .email:focus, .url:focus, .subject:focus, textarea:focus{
+border-color: #E941AA;
+}
+
+div.budgetHold 
+{
+	
+	width:190px;
+}
+
+select {
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px;
+margin:5px 0 0;
+padding:4px;
+}
+
+#Submit {
+	margin-top:10px;
+	border:0 none;
+	cursor:pointer;
+	height:36px;
+	line-height:26px;
+	width:105px;
+	background-image: url(/assets/img/submit_btn.png);
+	background-color: #29A8E2;
+	background-repeat: no-repeat;
+	background-position: center top;
+	float:right;
+}
+
+#comment_form_errorloc ul {
+	font-size:10pt;
+	color:#F00;
+	padding-left:17px;
+	
+}
+
+#comment_form_errorloc li {
+	/*list-style-type: none;	*/
+}
+
+.requ 
+{
+
+color:#F00;
+
+}
+
+#cForm span.note
+{
+color:#666;
+font-size:9pt;
+}
+#social_med
+{
+
+margin-top:53px;
+
+}
+.logos_box{
+float: left;
+height: 65px;
+position: relative;
+width: 185px;
+}
+.logos_box img{
+position:absolute;
+bottom:0;
+left:0;
+
+}
+/*ERROR MESSAGE BOX*/
+#comment_form_log{
+	
+	background:none repeat scroll 0 0 #FFFF66;
+	border:1px solid #FFCC00;
+	color:#666666;
+	padding:0 12px;
+	margin-top:10px;
+	
+}
+
+#comment_form_log p {
+	font-size:14px;
+	}
+	
+#comment_form_log strong{
+   color:#D2232A;	
+}

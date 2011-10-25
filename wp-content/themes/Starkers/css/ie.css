@@ -1,0 +1,17 @@
+@font-face {
+  font-family: MyriadWeb;
+  src: url(fonts/myriad_pro.eot);
+}
+
+#navBar_hd > li > a {
+Font-Family:'Droid Sans', Arial;
+font-size:19px;
+}
+
+#port_hd ul li a {
+
+Font-Family:'Droid Sans', Arial;
+font-size:15px;
+line-height:32px;	
+	
+}

@@ -1,0 +1,46 @@
+#scrollable {
+
+
+
+	/* required settings */
+
+	position:relative;
+
+	overflow:hidden;
+
+	height:500px;
+    
+    width:100%;
+
+}
+
+
+
+#image_gallery {
+
+	/* this cannot be too large */
+
+	width:20000em;
+
+	position:absolute;
+
+}
+
+
+
+#image_gallery > div{
+
+    
+
+    float:left;
+
+    width: 1000px;
+
+    height:500px;
+
+    
+
+}
+
+
+

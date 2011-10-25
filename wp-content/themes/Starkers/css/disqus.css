@@ -1,0 +1,72 @@
+/*DISQUS Fixes*/
+
+.dsq-brlink{
+display:none;
+}
+button.dsq-button {
+    -moz-border-radius:0;
+	-webkit-border-radius:0;
+    border: medium none;
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 6px;
+    text-transform: uppercase;
+	background-image:none;
+	background-color:#17A2E2;
+}
+button.dsq-button:active,
+button.dsq-button.dsq-toggled {
+background:none;
+border:medium none;
+color:#FFF;
+text-shadow:none;
+}
+button.dsq-button:hover,
+button.dsq-button-small:hover
+{
+background-color:#000;	
+}
+#disqus_thread h3{
+word-spacing:0;
+letter-spacing: 0;
+}
+
+#dsq-content  div.dsq-comment-message
+{
+	background-color:#FFF;
+    margin: 0;
+    padding: 1em;
+	
+}
+#dsq-content .dsq-odd .dsq-comment-message 
+{
+	background-color: #F0F8FD;
+}
+
+#dsq-content div.dsq-comment-footer {
+    background-color: white;
+    margin: 0;
+    padding: 1em;
+}
+
+#dsq-content .dsq-odd .dsq-comment-footer {
+	background-color: #F0F8FD;
+}
+
+#dsq-content div.dsq-comment-header {
+border:none;
+background-color:#f2f2f2;
+-moz-border-radius:0;
+-webkit-border-radius:0;
+border-bottom:1px solid lightgrey;
+}
+
+#dsq-content .dsq-odd div.dsq-comment-header {
+background-color:#e3f3fc;
+border-bottom: 1px solid #17A2E2;
+}
+
+#dsq-content .dsq-moderator div.dsq-comment-header {
+background-color: #D4F2E3;
+}

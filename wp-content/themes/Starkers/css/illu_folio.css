@@ -1,0 +1,21 @@
+#thi_cat p {
+color:#000;
+ font-size: 19px;
+ margin-top: 5px;
+ word-spacing: 6px;
+}
+
+#thi_cat p a {
+    display:none;
+	margin-left: 9px;
+    text-transform: lowercase;
+    word-spacing: 0;
+}
+
+#total_pics_bi{
+margin-left:-5px;
+}
+
+#current_pic_bi{
+color:#29A8E2;
+}

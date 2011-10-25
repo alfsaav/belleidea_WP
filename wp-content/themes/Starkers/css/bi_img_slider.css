@@ -1,0 +1,232 @@
+/*----------Photography Portfolio Gallery------------------*/
+
+#bi_light_box{
+
+display:none;
+
+z-index:10000;
+
+position: absolute;
+
+left: 0;
+
+top: 0;
+
+background-color:#EFEFF0;
+
+width:100%;
+
+height:100%;
+
+}
+
+/*Full screen mode disclaimer btn*/
+
+.full_scr_btn{
+
+ background-color: #FFFF00;
+
+    border-top: 2px solid grey;
+
+    color: #000000;
+
+    cursor: pointer;
+
+    display: none;
+
+    font-size: 18px;
+
+    height: 22px;
+
+    padding: 5px 10px 3px;
+
+    position: absolute;
+
+    right: 0;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    top: 0;
+
+    z-index: 60;
+
+}
+
+.full_scr_big{
+
+    font-size: 24px;
+
+    height: 26px;
+
+    padding: 8px 14px 6px;
+
+}
+
+.full_scr_hover{
+
+background-color:#000;
+
+color:#FFF;
+
+}
+
+
+
+#holder_wrap_bi{
+
+float:none;
+height:500px;
+overflow:hidden;
+position:relative;
+width:100%;
+margin-bottom: -30px;
+-moz-user-select: none;
+-webkit-user-select: none;
+
+}
+
+body {
+/*    
+  -moz-user-select: none;
+-webkit-user-select: none;  
+*/    
+}
+
+#holder_wrap_bi.full_screen{
+    
+  margin: 0;
+  width:100%;  
+    
+}
+#holder_wrap_bi.hidden{
+ visibility:hidden;
+ position:absolute;   
+}
+
+
+
+#holder_wrap_bi > img
+
+{
+
+display:none;	
+
+	
+
+}
+
+
+
+#img_holder{
+
+
+
+   width:2000px;
+
+   position:relative;
+
+   float:left;
+
+   left:0;
+
+
+
+}
+#img_holder img,
+#img_holder img.pre_img
+{
+display:block;
+position: absolute;
+top: 0;
+left: 0;
+
+}
+
+
+._img_loading, .loaded {
+background-image:url("../img/ajax_loader_3_dots.gif");
+
+background-repeat:no-repeat;
+
+background-position:center center ;
+
+background-color:#CCC;
+
+display:block;
+
+position:relative;
+
+float:left;
+
+height:500px;
+
+border-right:#FFF solid 1px;
+
+/*margin-right:3px;*/
+}
+
+.loaded {
+  background:  #CCC;
+}
+
+
+
+.gall_btn{
+
+top: 44%;
+
+cursor:pointer;
+
+background:url("../img/btn_arrow.png") no-repeat scroll 14px  #29A8E2;
+
+width:57px;
+
+height:72px;
+
+display:block;
+
+float:none;
+
+line-height:72px;
+
+position:absolute;
+
+z-index:10;
+
+border-left:4px solid #0071BC;
+
+display:none;
+
+}
+
+
+
+.gall_btn_prev{
+
+left:0;	
+
+}
+
+
+
+.gall_btn_next{
+
+right:0;
+
+background:url("../img/btn_arrow.png") no-repeat scroll -45px  #29A8E2;
+
+border-left:none;
+
+border-right:4px solid #0071BC;
+
+}
+
+
+
+.port_btn_hover{
+
+background-color:#000;	
+
+}

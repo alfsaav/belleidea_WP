@@ -1,0 +1,164 @@
+/* Photo Thumbnails Styles */
+
+
+/*Thumbnails*/
+.thumb_container{
+    display:none;
+    margin: 20px 0;
+    overflow:hidden;
+    position:relative;
+    left:-10px;}
+/*Passive thumbs*/
+
+.thumb{
+    float: left;
+    height: 188px;
+    margin: 0 12px 23px 0;
+    width: 188px;
+    display:block;
+}
+
+.image_cont{
+    cursor: pointer;
+    display: table-cell;
+    height: 186px;
+    text-align: center;
+    vertical-align: middle;
+    width: 186px;
+}
+/*Thumbnails ToolTips*/
+.thumb .loading{
+    background: url("../img/ajax-loader-cir.gif") no-repeat center #f8f8f8;
+}
+
+.thumb .image_cont img {
+    -moz-box-shadow: 3px 3px 10px #C4C4C4;
+    -webkit-box-shadow: 3px 3px 10px #C4C4C4;
+    box-shadow: 3px 3px 10px #C4C4C4;
+    border: 7px solid white;
+    vertical-align: middle;
+    background: #f8f8f8;
+    -webkit-transform: scale(1);
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 200ms;
+    
+    -moz-transform: scale(1);
+	-moz-transition-timing-function: ease-out;
+	-moz-transition-duration: 200ms;
+    
+    -ms-transform: scale(1);
+	-ms-transition-timing-function: ease-out;
+	-ms-transition-duration: 200ms;
+    
+    z-index: 1;
+    position:relative;
+    cursor: pointer;
+    display:none;
+}
+.thumb .image_cont img:hover {
+    -webkit-transform: scale(1.3);
+	-webkit-transition-timing-function: swing;
+	-webkit-transition-duration: 200ms;
+    
+    -moz-transform: scale(1.3);
+	-moz-transition-timing-function: swing;
+	-moz-transition-duration: 200ms;
+    
+    -ms-transform: scale(1.3);
+	-ms-transition-timing-function: swing;
+	-ms-transition-duration: 200ms;
+    z-index: 10;
+    border: 7px solid #000;
+}
+
+body.ie8 .thumb .image_cont img:hover, 
+body.ie7 .thumb .image_cont img:hover {
+    
+    border: 7px solid black;
+
+}
+    
+.thumb .pre_img {
+    background: url("../img/ajax-loader-cir.gif") no-repeat center #f8f8f8;
+    border: 7px solid white;
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.bi-collection.thumb .pre_img {
+    border: none;
+    display:block;
+    position:absolute;   
+}
+
+
+body.ie8 .thumb  .image_cont img,
+body.ie7 .thumb  .image_cont img {
+    
+   border: 7px solid lightgray;
+    
+}
+
+/*Collection Thumbnails*/
+.bi-collection.thumb{
+border: 1px solid grey;
+display: block;
+float: left;
+height: 300px;
+margin: 11px;
+overflow: hidden;
+position: relative;
+width: 300px;
+background-color: black;
+cursor:pointer;
+}
+
+a.bi-collection,
+a:visited.bi-collection,
+a:hover.bi-collection{
+text-decoration:none;
+}
+a:hover.bi-collection h2{
+background:#3399CC;
+color:#fff;
+}
+/*
+a:hover.bi-collection .caption{
+bottom:0;
+}
+*/
+.bi-collection .caption {
+position:absolute;
+bottom:0;
+left:0;
+width:65%;
+}
+.bi-collection img{
+position: absolute;
+display:none;
+}
+.bi-collection h2{
+background:#4D4D4D;
+color: #fff;
+display: inline;
+font-size: 26px;
+font-weight: bold;
+line-height: 25px;
+padding-right: 6px;
+position: relative;
+text-transform: uppercase;
+top: -3px;
+font-family:Arial;
+}
+.bi-collection .meta{
+width:50%
+}
+.bi-collection span{
+background:#FFF;
+color: #000000;
+display: inline-block;
+font-size: 18px;
+font-weight: bold;
+line-height: 13px;
+padding: 4px 6px;
+}

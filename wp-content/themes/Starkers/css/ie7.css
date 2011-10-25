@@ -1,0 +1,59 @@
+#main_hd{
+
+z-index:5;
+
+}
+
+.comment_link{
+
+position:relative;	
+
+}
+
+
+
+.comment_link a
+
+{
+
+  position:relative;
+
+  bottom:45px;
+
+  right:5px;
+
+}
+
+
+
+.storytitle{
+
+background:url(/images_content/h1_bar.png) no-repeat left 5px;
+
+display:block;	
+
+}
+
+
+
+#navBar_hd li.menu_sub_cat div{
+
+margin-top:-4px;
+
+}
+
+
+
+
+
+#menu input#s {
+
+
+
+color:#000;
+
+font-style:normal;
+
+
+
+}
